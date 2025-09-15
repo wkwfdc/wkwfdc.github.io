@@ -1,0 +1,42 @@
+.hf{width:100%; float: left;}
+.hf .txb{width:0.35rem; height: 0.35rem; float: left; margin-right: 0.15rem;border-radius:0.05rem}
+.bottom-link{ position: fixed; left: 15px; right: 15px; bottom: 15px; font-size: 16px; color: #fff; background: #ff3f19; text-align: center; border-radius: 6px; line-height: 40px;letter-spacing: 2px;}
+.mask-click{ position: fixed; right: 15px; bottom: 100px; width: 50px; height: 50px; border-radius: 50%; z-index: 100; background: #00000000; }
+.mask-click-top{ bottom: 180px; }
+.mask-box{ position: fixed; display: none; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 200; }
+.mask-box-sm{ width: 260px; border-radius: 15px; background: #fff; top: 60%; left: 50%; position: fixed; transform: translate(-50%,-50%); }
+.mask-box-tt{ background:#fe1f3e; text-align: center; padding:10px 0; border-radius: 10px 10px 0 0; color: #fff; font-size: 21px; color: #fff;letter-spacing:0.3rem;text-indent:0.3rem; }
+.mask-box-tt span{ font-size: 14px; display: inline-block; padding-top: 10px; }
+.ewm-box{ background: #fff; text-align: center; border-radius: 0 0 10px 10px; padding:15px; }
+.ewm-box img{ width: 150px; margin:0 auto; float: none; }
+.mask-box-sm i{ position: absolute; top: -20px; right: -20px; }
+.mask-box-sm i{ width: 20px; }
+.top-txt{animation: example 3.5s infinite;
+   position: fixed; color: #fff; left: 15px; top: 20px; right: 15px; background: rgba(0,0,0,0.5); border-radius: 30px; padding:8px 15px; text-align: center;font-size:14px;letter-spacing:2px; } 
+@keyframes example {
+  0% {opacity: 0; transform: translate(0,-30px);}
+
+  80% {opacity: 1; transform: translate(0,-0%);}
+  100% {opacity: 0; transform: translate(0,10px);}
+}
+.mask-click img{ width: 100%; height: 50px; border-radius: 50%; }
+@media( min-width: 750px){
+	.top-txt,.bottom-link{ width: 720px; left: 50%; right: auto; margin-left: -360px; }
+	.mask-click{ right: 50%; margin-right: -360px; }
+	.mask-box{ width: 750px; left: 50%; margin-left:-375px; }
+}
+.cy-list li{ float: left; text-align: center; width: 20%; padding:0 0.13rem; margin-bottom: 0.4rem; font-size: 0.22rem; color: #b2b2b2; }
+.cy-list{ margin:0 -0.1rem; }
+.cy-list li img{ height: 1.1rem; border-radius: 4px; margin-bottom: 5px; }
+.qcy>h1{ margin-top: 0; }
+.bd{ border-top: solid 1px #ddd; margin-bottom: 0.2rem; }
+.qcy>p{ padding-bottom: 0.2rem; }
+.icon{ width: 0.4rem; }
+.fxsc li{ color: #3a518b; padding-top: 0.2rem; padding-bottom: 0.2rem; color: #3a518b!important; font-size: 0.22rem; }
+.fxsc li{ width: auto; margin-right: 0.65rem; }
+.fxsc{ display: block; width: auto; }
+.fxsc li:last-child{ margin-right: 0; }
+.lytit .icon{ width: 0.3rem; float: left; margin-right: 0.05rem; margin-top: -0.04rem; color: #3a518b; }
+.lytit .fr{ padding-top: 0.05rem; }
+.hfword-b{ padding-left: 0.5rem; }
+a:hover,a:focus{ outline: none!important; }
